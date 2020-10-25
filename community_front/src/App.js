@@ -19,6 +19,7 @@ export default function App() {
     <DataProvider>
       <div className="container">
         <Header />
+        <h1>HAHAHA</h1>
         <main className="main">
           <Sidebar />
           <div className="content">
