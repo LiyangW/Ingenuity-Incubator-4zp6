@@ -18,6 +18,7 @@ export default function App() {
   return (
     <DataProvider>
       <div className="container">
+        <h1>HAHAHA</h1>
         <Header />
         <main className="main">
           <Sidebar />
