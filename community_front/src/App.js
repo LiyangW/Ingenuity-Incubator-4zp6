@@ -17,6 +17,7 @@ import OrderPage from "./pages/OrderPage";
 export default function App() {
   return (
     <DataProvider>
+      <h1>haha</h1>
       <div className="container">
         <Header />
         <main className="main">

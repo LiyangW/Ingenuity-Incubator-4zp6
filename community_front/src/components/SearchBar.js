@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useData } from "../data/useData";
 
 export default function SearchBar() {
+
   const { data } = useData();
   const [input, setInput] = useState("");
   const categories = ["products", "competences", "services"];
