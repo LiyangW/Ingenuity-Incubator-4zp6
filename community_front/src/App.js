@@ -28,6 +28,8 @@ import OverviewPage from './pages/AdminOverviewPage';
 import AwaitingPage from './pages/AdminAwaitingPage';
 import ValidateUserPage from './pages/AdminValidateUserPage';
 
+import Signin from './pages/Signin'
+import Register from './pages/Register'
 import WalletPage from './pages/WalletPage'
 import TransHistPage from './pages/TransHistPage'
 
@@ -65,6 +67,8 @@ export default function App() {
               <Route path="/myadmin/complaints" element={<ComplaintPage />} />
               <Route path="/mywallet" element={<WalletPage />} />
               <Route path="/myreframery/purchase-records" element={<TransHistPage />} />
+              <Route path="/signin" element={<Signin />} />
+              <Route path="/register" element={<Register />} />
               
             </Routes>
           </div>
